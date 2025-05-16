@@ -1,14 +1,10 @@
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
-import { Calendar } from '@/components/ui/calendar';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Textarea } from '@/components/ui/textarea';
 import AppLayout from '@/layouts/app-layout';
-import { cn } from '@/lib/utils';
 import { Head, useForm } from '@inertiajs/react';
-import { parseISO } from 'date-fns';
 import { CalendarIcon, CircleAlert } from 'lucide-react';
 
 interface Patient {
